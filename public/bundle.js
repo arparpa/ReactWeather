@@ -57,8 +57,8 @@
 
 	var Main = __webpack_require__(216);
 	var Weather = __webpack_require__(218);
-	var About = __webpack_require__(248);
-	var Examples = __webpack_require__(247);
+	var About = __webpack_require__(247);
+	var Examples = __webpack_require__(248);
 
 	ReactDOM.render(React.createElement(
 	  Router,
@@ -26597,28 +26597,6 @@
 
 	var React = __webpack_require__(1);
 
-	var Examples = React.createClass({
-	  displayName: 'Examples',
-
-	  render: function render() {
-	    return React.createElement(
-	      'h3',
-	      null,
-	      'Exampleee Component'
-	    );
-	  }
-	});
-
-	module.exports = Examples;
-
-/***/ },
-/* 248 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var React = __webpack_require__(1);
-
 	var About = React.createClass({
 	  displayName: 'About',
 
@@ -26632,6 +26610,28 @@
 	});
 
 	module.exports = About;
+
+/***/ },
+/* 248 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var React = __webpack_require__(1);
+
+	var Examples = React.createClass({
+	  displayName: 'Examples',
+
+	  render: function render() {
+	    return React.createElement(
+	      'h3',
+	      null,
+	      'Example'
+	    );
+	  }
+	});
+
+	module.exports = Examples;
 
 /***/ }
 /******/ ]);
