@@ -4,7 +4,7 @@ var Examples = React.createClass({
   render: function () {
     return (
       <h3>Example</h3>
-
+      <p>Welcome to Examples page</p>
     )
   }
 });
