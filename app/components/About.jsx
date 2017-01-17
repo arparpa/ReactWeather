@@ -11,5 +11,5 @@ var About = React.createClass({
     )
     }
     });
-    
-    module.exports = Examples;
+
+    module.exports = About;

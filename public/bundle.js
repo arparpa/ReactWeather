@@ -26618,7 +26618,7 @@
 	  }
 	});
 
-	module.exports = Examples;
+	module.exports = About;
 
 /***/ },
 /* 248 */
@@ -26628,26 +26628,22 @@
 
 	var React = __webpack_require__(1);
 
-	var Examples = React.createClass({
-	  displayName: 'Examples',
-
-	  render: function render() {
-	    return React.createElement(
-	      'div',
+	var Examples = function Examples(props) {
+	  return React.createElement(
+	    'div',
+	    null,
+	    React.createElement(
+	      'h3',
 	      null,
-	      React.createElement(
-	        'h3',
-	        null,
-	        'Example'
-	      ),
-	      React.createElement(
-	        'p',
-	        null,
-	        'Welcome to Examples page'
-	      )
-	    );
-	  }
-	});
+	      'Examples'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Welcome to examples page!'
+	    )
+	  );
+	};
 
 	module.exports = Examples;
 
