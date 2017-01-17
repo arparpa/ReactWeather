@@ -26602,14 +26602,23 @@
 
 	  render: function render() {
 	    return React.createElement(
-	      'h3',
+	      'div',
 	      null,
-	      'About Component'
+	      React.createElement(
+	        'h3',
+	        null,
+	        'About'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Welcome to About page'
+	      )
 	    );
 	  }
 	});
 
-	module.exports = About;
+	module.exports = Examples;
 
 /***/ },
 /* 248 */
@@ -26624,9 +26633,18 @@
 
 	  render: function render() {
 	    return React.createElement(
-	      'h3',
+	      'div',
 	      null,
-	      'Example'
+	      React.createElement(
+	        'h3',
+	        null,
+	        'Example'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Welcome to Examples page'
+	      )
 	    );
 	  }
 	});
